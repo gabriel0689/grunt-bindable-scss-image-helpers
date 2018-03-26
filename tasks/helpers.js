@@ -66,14 +66,14 @@ module.exports = function (grunt) {
              output += '$' + options.prefix + '-widths: ' + list.widths.join(', ') + ';\n';   
             }
             else{
-                output += '$' + options.prefix + '-widths:"";\n';
+                output += '$' + options.prefix + '-widths:'+' "" '+';\n';
                 console.log("empty list.widths");
             }
             if(list.heights != ''){
              output += '$' + options.prefix + '-heights: ' + list.heights.join(', ') + ';\n';
             }
             else{
-                 output += '$' + options.prefix + '-heights: ' ""';\n';
+                 output += '$' + options.prefix + '-heights:'+' "" '+';\n';
                  console.log("empty list.heights");
             }
 

@@ -1,3 +1,5 @@
+Modified version of  Daniel Cirmaciu's unmaintained grunt-scss-image-helpers.
+
 # grunt-scss-image-helpers
 
 Grunt tasks to replace Compass image helpers. It is recommended to run this task with watch task on image folder only.

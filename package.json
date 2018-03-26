@@ -1,6 +1,6 @@
 {
   "name": "grunt-bindable-scss-image-helpers",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Modified version of  Daniel Cirmaciu's unmaintained grunt-scss-image-helpers. Creates variables for Compass-like image helpers for url, width and height of images.",
   "keywords": ["gruntplugin", "scss", "sass"],
   "author": "JPEG <dev.jpeg@gmail.com> (http://jpegpr.com)",
